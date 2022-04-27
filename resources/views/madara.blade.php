@@ -48,7 +48,7 @@
         <div class="container">
         <h2>{{ $name }}</h2>
         <h3>{{ $quote }}</h3>
-        <img src="https://i1.sndcdn.com/artworks-000086631503-3cl97y-t500x500.jpg" alt="{{ $name }}"> <br>
+        <img src="{{ $src }}" alt="{{ $name }}"> <br>
         <a href="{{ route('home') }}">Home</a>
     </div>
 </body>

@@ -48,7 +48,7 @@
     <div class="container">
         <h2>{{ $name }}</h2>
         <h3>{{ $quote }}</h3>
-        <img src="https://cdn.shopify.com/s/files/1/1140/8354/files/Itachi-Uchiha.jpg?v=1627606506" alt="{{ $name }}"> <br>
+        <img src="{{ $src }}" alt="{{ $name }}"> <br>
         <a href="{{ route('home') }}">Home</a>
     </div>
 </body>
